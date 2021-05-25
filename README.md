@@ -13,6 +13,7 @@ When you enter the first page, you are greeted by a search bar that allows you t
 
 ## Cities
 When you select the city, you enter the city page with some pictures, brief description and a geolocation. You have two choices, to browse top hotels, or to browse top restaurants in the city. All of the data is stored in a database for each city.
+
 ![City](city.png)
 
 ## Hotels
