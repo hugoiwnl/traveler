@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+.about{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.slika, .text{
+    flex: 1;
+}
+.main{
+    text-align: center;
+    margin-top: 50px;
+}
+.linkk{
+    color: black;
+}

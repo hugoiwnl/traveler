@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    display:flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+.profil{
+    color: black;
+}
+.logo-container, .sign-in, .nav-links{
+    display:flex;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    color: #5f5f79;
+    font-size: 20px;
+    text-decoration: none;
+}
+.logo{
+    margin-top:45px;
+    font-size: 20px;
+}
+
+.logo-container{
+    flex:1;
+}
+nav{
+    flex:1;
+}
+.sign-in{
+    flex:1;
+    justify-content: flex-end;
+    font-size: 20px;
+    
+}
+#signn{
+    padding:5px 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+#sign-text{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+#signn:hover{
+    background-color: 	#505050;
+    
+}
+#log-out-text{
+    font-size: 20px;
+    color: black;
+}
+#logout{
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+.traveler{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.titl{
+    margin: 0px 10px;
+    color: #5aa897;
+}
+.ime-hotela{
+    color: #45526c;
+    font-size: 40px;
+}
+.slike{
+    width: 75%;
+    margin:auto;
+    height: 40vh;
+    display: flex;
+}
+.slika1,.slika2{
+    flex:1;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.slika2{
+    margin-left: 20px;
+}
+.opis{
+    background-color: #f8f5f1;
+    color: #45526c;
+    
+    
+}
+.hrana{
+    background-color: #f8a488;
+    color: #45526c;
+}
+.rating{
+    background-color: #5aa897;
+    color: #f8f5f1;
+}
+.kontakt{
+
+    background-color: #45526c;
+    color: #f8f5f1;
+}
+.kontakt-tekst{
+    margin-top: 30px;
+}
+.tekst{
+    display: flex;
+    margin-top: 20px;
+    height: 25vh;
+    
+}
+.levo, .desno{
+    flex: 1;
+    display: flex;
+    border-radius: 10px;
+}
+.desno{
+    margin-left: 20px;
+}
+.opis, .hrana, .kontakt, .rating{
+    flex: 1;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+.hrana, .kontakt{
+    margin-left: 10px;
+}
+.deskripcija{
+    margin-top: 10px;
+    font-size: 13px;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+.about{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.opis-naslov{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cousine{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.rating-tekst {
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.lokacija, .website{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lok{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.web{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.linkk{
+    
+    color: #f8f5f1;
+}
+.pic1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.pic2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.reviews{
+    margin-top: 30px;
+
+}
+.slika1, .slika2{
+    box-shadow: 10px 10px 5px grey;
+}
+.ocene{
+    background-color: #f8f5f1;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 10px;
+
+}
+.review-naslov{
+    font-size: 50px;
+    
+}
+.ocenjivanje{
+    text-align: center;
+}
+
+
+.prica{
+    margin-top: 30px;
+}
+.pricaa{
+    padding: 10px 20px;
+    color:#45526c; 
+}
+.gornji,.oceni{
+    display:flex;
+    padding:10px 20px;
+}
+.ime{
+    color: #f8a488;
+}
+.rat{
+    color: #5aa897;
+}
+
+.wrote,.rat{
+    margin-left: 5px;
+}
+.napisi{
+    background-color: #5aa897;
+    width: 50%;
+    margin:auto;
+    border-radius: 10px;
+}
+.napisi-title{
+    text-align: center;
+    
+}
+.ocena{
+    display: flex;
+}
+.type{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.input1{
+    width: 10%;
+    height: 4vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.napisi1{
+    margin: 20px 20px;
+}
+.input2{
+    width: 70%;
+    height: 10vh;
+    margin: 20px;
+    border-radius: 10px;
+}
+.btn{
+    margin:10px 20px;
+    width: 20%;
+    height: 5vh;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #f8f5f1;
+    background-color: #f8a488;
+}
+input, button{
+    font-family: 'Poppins', sans-serif;
+}
+.wr{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: #f8f5f1;
+}
+.btn:hover{
+    background-color: #ffe6e6;
+}
+.del{
+    margin-top:10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.del-text{
+    margin-left: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+.del-text:hover{
+    background: #f8a488;
+}
+.re{
+    text-align: center;
+}
+.up{
+    text-align: center;
+    margin: 20px;
+}
+.upozorilo{
+    font-size: 30px;
+}

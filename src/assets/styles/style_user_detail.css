@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    display:flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+.logo-container, .sign-in, .nav-links{
+    display:flex;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    color: #5f5f79;
+    font-size: 20px;
+    text-decoration: none;
+}
+.logo{
+    margin-top:45px;
+    font-size: 20px;
+}
+
+.logo-container{
+    flex:1;
+}
+nav{
+    flex:1;
+}
+.sign-in{
+    flex:1;
+    justify-content: flex-end;
+    font-size: 20px;
+    
+}
+#signn{
+    padding:5px 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+#sign-text{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+#signn:hover{
+    background-color: 	#505050;
+    
+}
+#log-out-text{
+    font-size: 20px;
+    color: black;
+}
+#logout{
+    position: absolute;
+    right: 15%;
+    top: 3%;
+}
+.profil{
+    color: black;
+}
+.traveler{
+    text-decoration: none;
+    color: black;
+}
+.naslov{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+}
+.karta{
+    width: 70%;
+    margin: 20px auto;
+    display:flex;
+    height: 15vh;
+
+}
+.slika, .ime{
+    flex:1;
+}
+.user-naslov{
+    font-size: 50px;
+}
+.slika{
+    text-align: center;
+}
+.ime{
+    text-align: center;
+}
+.ikona{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
+.slika{
+    width: 100%;
+    height: 100%;
+}
+.nm{
+    padding-top: 20px;
+    font-size: 40px;
+}
+.username{
+    color: #686868;
+}
+.bookings{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    margin-top: 50px;
+}
+.bookings-tekst{
+    font-size: 30px;
+    color: #45526c;
+}
+table, th, td{
+    border: 1px solid #45526c;
+    
+}
+table{
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+}
+th{
+    height: 5vh;
+}
+.del{
+    color: black;
+}
+th, tr{
+    background-color: #5aa897;
+    color: #f8f5f1;
+    text-align: center;
+}
+.btn-del{
+    background-color: #f8a488;
+    color: #45526c;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.yet{
+    margin-top: 50px;
+
+}
+.success{
+    color: #5aa897;
+}

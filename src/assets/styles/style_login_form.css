@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+.wrap{
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    height: 70vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.slika{
+    flex:1;
+}
+.content{
+    flex: 1;
+    height: 70vh;
+    width: 50vh;
+    text-align: center;
+    
+}
+.register, .login{
+    font-size: 30px;
+}
+#register-naslov, #sign-naslov{
+    margin: 20px;
+    color:#536162;
+}
+
+.inputi{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #f5f5f5;
+    margin: 5px;
+}
+
+.dugmi{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    background: #00acee;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.dugmi:hover{
+    background-color: 	#191970;
+}
+.already{
+    font-size: 20px;
+    color: #c06014;
+}
+.linkk{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.important{
+    color: red;
+    font-size: 20px;
+}
+.success{
+    color: #5aa897;
+}
